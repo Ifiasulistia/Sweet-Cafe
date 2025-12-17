@@ -1,0 +1,77 @@
+```css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+}
+
+header {
+  text-align: center;
+  background: #ffc0cb;
+  padding: 20px;
+}
+
+header h1 {
+  color: #ff1493;
+  margin: 0;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #ff69b4;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff1493;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.rating span {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+* Menambahkan **logo Sweet Café**
+* Membuat **README GitHub**
+* Mengubah ke **tanpa React**
+* Menyesuaikan untuk **tugas sekolah**
